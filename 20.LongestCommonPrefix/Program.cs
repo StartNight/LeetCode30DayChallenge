@@ -38,7 +38,7 @@ namespace _20.LongestCommonPrefix
                 来源：力扣（LeetCode）
                 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
              */
-            var s = LongestCommonPrefix(new string[] {"hello","heoll","hess" });
+            var s = LongestCommonPrefix(new string[] {"hello","h","hess" });
             Console.WriteLine(s);
         }
         public static string LongestCommonPrefix(string[] strs)
@@ -55,7 +55,8 @@ namespace _20.LongestCommonPrefix
             {
                 for (int j = 1; j < strs.Length; j++)
                 {
-                    if (strs[j][i] != strs[j - 1][i])
+                    
+                    if (strs[j].Length <= i || strs[j][i] != strs[j - 1][i])
                     {
                         return strs[0].Substring(0, i);
                     }

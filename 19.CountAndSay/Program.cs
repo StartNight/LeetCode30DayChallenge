@@ -89,7 +89,6 @@ namespace _19.CountAndSay
             }
             return str + $"{count}{item}";
 
-            return "";
         }
     }
 }
