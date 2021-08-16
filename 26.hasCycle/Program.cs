@@ -1,0 +1,42 @@
+﻿using System;
+
+namespace _26.hasCycle
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+        public static bool hasCycle(ListNode head)
+        {
+            if (head == null)
+                return false;
+            //快慢两个指针
+            ListNode slow = head;
+            ListNode fast = head;
+            while (fast != null && fast.next != null)
+            {
+                //慢指针每次走一步
+                slow = slow.next;
+                //快指针每次走两步
+                fast = fast.next.next;
+                //如果相遇，说明有环，直接返回true
+                if (slow == fast)
+                    return true;
+            }
+            //否则就是没环
+            return false;
+        }
+        public class ListNode
+        {
+            public int val;
+            public ListNode next;
+            public ListNode(int val = 0, ListNode next = null)
+            {
+                this.val = val;
+                this.next = next;
+            }
+        }
+    }
+}
