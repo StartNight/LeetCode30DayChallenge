@@ -6,7 +6,7 @@ namespace _26.hasCycle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           // 检测数组是否有环
         }
         public static bool hasCycle(ListNode head)
         {
