@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32.Merge", "32.Merge\32.Mer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33.FirstBadVersion", "33.FirstBadVersion\33.FirstBadVersion.csproj", "{3A619A42-0C3E-46AD-9DD6-23E53A96A86A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34.ClimbStairs", "34.ClimbStairs\34.ClimbStairs.csproj", "{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34.ClimbStairs", "34.ClimbStairs\34.ClimbStairs.csproj", "{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35.MaxProfit", "35.MaxProfit\35.MaxProfit.csproj", "{26C42D50-C385-4A2B-873F-92ACD2A34619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

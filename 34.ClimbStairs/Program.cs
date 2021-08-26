@@ -44,5 +44,18 @@ namespace _34.ClimbStairs
                 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
              */
         }
+        public int ClimbStairs(int n)
+        {
+            if (n <= 2)
+                return n;
+            int first = 1, second = 2, sum = 0;
+            while (n-- > 2)
+            {
+                sum = first + second;
+                first = second;
+                second = sum;
+            }
+            return sum;
+        }
     }
 }
