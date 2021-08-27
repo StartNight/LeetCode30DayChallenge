@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33.FirstBadVersion", "33.Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34.ClimbStairs", "34.ClimbStairs\34.ClimbStairs.csproj", "{77EBFC44-CBB2-4F11-8E68-B5913AFBCBD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35.MaxProfit", "35.MaxProfit\35.MaxProfit.csproj", "{26C42D50-C385-4A2B-873F-92ACD2A34619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35.MaxProfit", "35.MaxProfit\35.MaxProfit.csproj", "{26C42D50-C385-4A2B-873F-92ACD2A34619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36.MaxSubArray", "36.MaxSubArray\36.MaxSubArray.csproj", "{A549EE39-EDF5-4E97-AA4C-847B03793CB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C42D50-C385-4A2B-873F-92ACD2A34619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A549EE39-EDF5-4E97-AA4C-847B03793CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A549EE39-EDF5-4E97-AA4C-847B03793CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A549EE39-EDF5-4E97-AA4C-847B03793CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A549EE39-EDF5-4E97-AA4C-847B03793CB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
