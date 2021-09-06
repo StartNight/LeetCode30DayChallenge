@@ -87,7 +87,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.CountPrimes", "41.CountP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42.IsPowerOfThree", "42.IsPowerOfThree\42.IsPowerOfThree.csproj", "{F07F3280-DA20-493B-B4BF-5B9B800EA86A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43.RomanToInt", "43.RomanToInt\43.RomanToInt.csproj", "{07A65959-2887-4993-BEE7-5DCC2F2D67F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "43.RomanToInt", "43.RomanToInt\43.RomanToInt.csproj", "{07A65959-2887-4993-BEE7-5DCC2F2D67F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44.HammingWeight", "44.HammingWeight\44.HammingWeight.csproj", "{240025A2-E9EE-4412-830B-A667279831BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45.HammingDistance", "45.HammingDistance\45.HammingDistance.csproj", "{7B132088-572E-4308-ADA5-36E31813BB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46.reverseBits", "46.reverseBits\46.reverseBits.csproj", "{D628D99B-775B-4B44-BF6E-FB5DE16557EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +273,18 @@ Global
 		{07A65959-2887-4993-BEE7-5DCC2F2D67F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A65959-2887-4993-BEE7-5DCC2F2D67F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A65959-2887-4993-BEE7-5DCC2F2D67F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240025A2-E9EE-4412-830B-A667279831BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240025A2-E9EE-4412-830B-A667279831BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240025A2-E9EE-4412-830B-A667279831BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240025A2-E9EE-4412-830B-A667279831BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B132088-572E-4308-ADA5-36E31813BB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B132088-572E-4308-ADA5-36E31813BB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B132088-572E-4308-ADA5-36E31813BB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B132088-572E-4308-ADA5-36E31813BB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D628D99B-775B-4B44-BF6E-FB5DE16557EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D628D99B-775B-4B44-BF6E-FB5DE16557EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D628D99B-775B-4B44-BF6E-FB5DE16557EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D628D99B-775B-4B44-BF6E-FB5DE16557EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
