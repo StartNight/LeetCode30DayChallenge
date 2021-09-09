@@ -1,11 +1,8 @@
-﻿using System;
-using System.Text;
-
-namespace _19.CountAndSay
+﻿namespace _19.CountAndSay
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 外观数列
@@ -24,7 +21,7 @@ namespace _19.CountAndSay
                 3.     21
                 4.     1211
                 5.     111221
-                第一项是数字 1 
+                第一项是数字 1
                 描述前一项，这个数是 1 即 “ 一 个 1 ”，记作 "11"
                 描述前一项，这个数是 11 即 “ 二 个 1 ” ，记作 "21"
                 描述前一项，这个数是 21 即 “ 一 个 2 + 一 个 1 ” ，记作 "1211"
@@ -32,7 +29,6 @@ namespace _19.CountAndSay
                 要 描述 一个数字字符串，首先要将字符串分割为 最小 数量的组，每个组都由连续的最多 相同字符 组成。然后对于每个组，先描述字符的数量，然后描述字符，形成一个描述组。要将描述转换为数字字符串，先将每组中的字符数量用数字替换，再将  所有    描述组 连   接起来。
 
                 例如，数字字符串 "3322251" 的描述如下图：
-
 
                  
 
@@ -88,7 +84,6 @@ namespace _19.CountAndSay
                 }
             }
             return str + $"{count}{item}";
-
         }
     }
 }

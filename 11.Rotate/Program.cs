@@ -2,9 +2,9 @@
 
 namespace _11.Rotate
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 旋转图像
@@ -16,11 +16,9 @@ namespace _11.Rotate
 
                 示例 1：
 
-
                 输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
                 输出：[[7,4,1],[8,5,2],[9,6,3]]
                 示例 2：
-
 
                 输入：matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
                 输出：[[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
@@ -54,8 +52,8 @@ namespace _11.Rotate
             s[0] = new int[3];
             s[1] = new int[3];
             Console.WriteLine(s.Length);
-
         }
+
         public static void rotate(int[][] matrix)
         {
             int length = matrix.Length;

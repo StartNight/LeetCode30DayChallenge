@@ -1,13 +1,12 @@
-﻿using System;
-
-namespace _26.hasCycle
+﻿namespace _26.hasCycle
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-           // 检测数组是否有环
+            // 检测数组是否有环
         }
+
         public static bool hasCycle(ListNode head)
         {
             if (head == null)
@@ -28,10 +27,12 @@ namespace _26.hasCycle
             //否则就是没环
             return false;
         }
+
         public class ListNode
         {
             public int val;
             public ListNode next;
+
             public ListNode(int val = 0, ListNode next = null)
             {
                 this.val = val;

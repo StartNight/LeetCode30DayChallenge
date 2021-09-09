@@ -2,14 +2,13 @@
 
 namespace _3.RotateArray
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 旋转数组
                 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
-
 
                 进阶：
 
@@ -29,7 +28,7 @@ namespace _3.RotateArray
 
                 输入：nums = [-1,-100,3,99], k = 2
                 输出：[3,99,-1,-100]
-                解释: 
+                解释:
                 向右旋转 1 步: [99,-1,-100,3]
                 向右旋转 2 步: [3,99,-1,-100]
                  
@@ -45,7 +44,7 @@ namespace _3.RotateArray
                 来源：力扣（LeetCode）
                 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
              */
-           // int[] nums = new int[] { -1, -100, 3, 99 };
+            // int[] nums = new int[] { -1, -100, 3, 99 };
             int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7 };
             Rotate(nums, 3);
             for (int i = 0; i < nums.Length; i++)
@@ -54,7 +53,7 @@ namespace _3.RotateArray
             }
         }
 
-        private static void Rotate(int[] nums,int k)
+        private static void Rotate(int[] nums, int k)
         {
             int[] tempArr = (int[])nums.Clone();
             for (int i = 0; i < nums.Length; i++)
@@ -62,6 +61,5 @@ namespace _3.RotateArray
                 nums[(i + k) % nums.Length] = tempArr[i];
             }
         }
-      
     }
 }

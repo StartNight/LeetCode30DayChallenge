@@ -2,9 +2,9 @@
 
 namespace _7.PlusOne
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 加一
@@ -40,8 +40,8 @@ namespace _7.PlusOne
                 来源：力扣（LeetCode）
                 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
              */
-            var dis = new int[] {9,9,9,9 };
-            var nums =  PlusOne(dis);
+            var dis = new int[] { 9, 9, 9, 9 };
+            var nums = PlusOne(dis);
             foreach (var item in nums)
             {
                 Console.Write(item);

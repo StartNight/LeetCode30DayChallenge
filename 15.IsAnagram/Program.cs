@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace _15.IsAnagram
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 有效的字母异位词
@@ -40,8 +40,6 @@ namespace _15.IsAnagram
 
                 C#
 
-
-
                 作者：力扣 (LeetCode)
                 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/xn96us/
                 来源：力扣（LeetCode）
@@ -60,7 +58,6 @@ namespace _15.IsAnagram
             {
                 if (kv.ContainsKey(s[i]))
                 {
-
                     kv[s[i]] += 1;
                 }
                 else
@@ -72,7 +69,6 @@ namespace _15.IsAnagram
             {
                 if (kv.ContainsKey(t[i]))
                 {
-
                     kv[t[i]] -= 1;
                 }
                 else

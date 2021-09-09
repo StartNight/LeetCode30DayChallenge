@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace _4.ContainsDuplicate
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             /*
                 给定一个整数数组，判断是否存在重复元素。
@@ -30,24 +30,23 @@ namespace _4.ContainsDuplicate
                 来源：力扣（LeetCode）
                 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
              */
-            int[] nums = new int[] {1,23,4,5,3,5 };
+            int[] nums = new int[] { 1, 23, 4, 5, 3, 5 };
             var contains = ContainsDuplicate(nums);
             Console.WriteLine(contains);
         }
 
         public static bool ContainsDuplicate(int[] nums)
         {
-
             HashSet<int> vs = new HashSet<int>();
             for (int i = 0; i < nums.Length; i++)
             {
                 if (!vs.Add(nums[i]))
                 {
-                    return true; 
+                    return true;
                 }
             }
 
             return false;
         }
-     }
+    }
 }
